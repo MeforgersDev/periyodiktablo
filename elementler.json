@@ -1,0 +1,828 @@
+{
+  "1": {
+    "number": 1,
+    "symbol": "H",
+    "category": "ametal",
+    "summary": "Hidrojen evrenin en hafif ve en bol bulunan kimyasal maddesidir.",
+    "source": "https://tr.wikipedia.org/wiki/Hidrojen"
+  },
+  "2": {
+    "number": 2,
+    "symbol": "He",
+    "category": "soy gaz",
+    "summary": "Helyum, renksiz, kokusuz, tatsız, zehirsiz ve kimyasal olarak neredeyse tamamen inert bir gazdır.",
+    "source": "https://tr.wikipedia.org/wiki/Helyum"
+  },
+  "3": {
+    "number": 3,
+    "symbol": "Li",
+    "category": "alkali metal",
+    "summary": "Lityum, gümüş-beyaz renkte alkali metaldir ve hafif metal olma özelliğine sahiptir.",
+    "source": "https://tr.wikipedia.org/wiki/Lityum"
+  },
+  "4": {
+    "number": 4,
+    "symbol": "Be",
+    "category": "alkalin toprak metal",
+    "summary": "Berilyum, sert, hafif ve oldukça zehirli bir alkalin toprak metalidir.",
+    "source": "https://tr.wikipedia.org/wiki/Berilyum"
+  },
+  "5": {
+    "number": 5,
+    "symbol": "B",
+    "category": "yarı metal",
+    "summary": "Bor, yüksek sıcaklıkta ve basınçta oluşan bir elementtir ve oldukça sert bir yapıya sahiptir.",
+    "source": "https://tr.wikipedia.org/wiki/Bor"
+  },
+  "6": {
+    "number": 6,
+    "symbol": "C",
+    "category": "ametal",
+    "summary": "Karbon, yaşamın temelini oluşturan ve çok çeşitli organik bileşiklerde bulunan bir elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/Karbon"
+  },
+  "7": {
+    "number": 7,
+    "symbol": "N",
+    "category": "ametal",
+    "summary": "Azot, Dünya atmosferinin yaklaşık %78'ini oluşturan bir gazdır.",
+    "source": "https://tr.wikipedia.org/wiki/Azot"
+  },
+  "8": {
+    "number": 8,
+    "symbol": "O",
+    "category": "ametal",
+    "summary": "Oksijen, Dünya'nın atmosferinde %21 oranında bulunan ve canlılar için hayati öneme sahip bir elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/Oksijen"
+  },
+  "9": {
+    "number": 9,
+    "symbol": "F",
+    "category": "ametal",
+    "summary": "Flor, en reaktif ve elektronegatif elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/Flor"
+  },
+  "10": {
+    "number": 10,
+    "symbol": "Ne",
+    "category": "soy gaz",
+    "summary": "Neon, atmosferde iz miktarda bulunan renksiz, kokusuz ve inert bir gazdır.",
+    "source": "https://tr.wikipedia.org/wiki/Neon"
+  },
+  "11": {
+    "number": 11,
+    "symbol": "Na",
+    "category": "alkali metal",
+    "summary": "Sodyum, çoğu organik bileşiğin bir bileşeni olan ve ayrıca tuzun ana bileşeni olan bir alkali metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Sodyum"
+  },
+  "12": {
+    "number": 12,
+    "symbol": "Mg",
+    "category": "alkalin toprak metal",
+    "summary": "Magnezyum, hafif, parlak, gümüşümsü beyaz metalik bir elementtir ve hidrojenle reaksiyona girerek hidrojen gazını çıkarır.",
+    "source": "https://tr.wikipedia.org/wiki/Magnezyum"
+  },
+  "13": {
+    "number": 13,
+    "symbol": "Al",
+    "category": "metal",
+    "summary": "Alüminyum, kolayca işlenebilir bir metaldir ve özellikle alaşımlarda kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Al%C3%BCminyum"
+  },
+  "14": {
+    "number": 14,
+    "symbol": "Si",
+    "category": "yarı metal",
+    "summary": "Silisyum, dünyanın en bol bulunan elementlerinden biridir ve çoğunlukla silikat minerallerinde bulunur.",
+    "source": "https://tr.wikipedia.org/wiki/Silisyum"
+  },
+  "15": {
+    "number": 15,
+    "symbol": "P",
+    "category": "ametal",
+    "summary": "Fosfor, yaşamın temel bileşenlerinden biridir ve hücrelerin enerji transferi ve genetik materyal olan DNA ve RNA'nın yapı taşıdır.",
+    "source": "https://tr.wikipedia.org/wiki/Fosfor"
+  },
+  "16": {
+    "number": 16,
+    "symbol": "S",
+    "category": "ametal",
+    "summary": "Kükürt, yaşam için önemli bir elementtir ve çeşitli biyolojik bileşiklerin bir bileşenidir.",
+    "source": "https://tr.wikipedia.org/wiki/K%C3%BCk%C3%BCrt"
+  },
+  "17": {
+    "number": 17,
+    "symbol": "Cl",
+    "category": "ametal",
+    "summary": "Klor, su dezenfeksiyonunda, endüstriyel üretimde ve birçok kimyasal ürünün üretiminde yaygın olarak kullanılan bir elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/Klor"
+  },
+  "18": {
+    "number": 18,
+    "symbol": "Ar",
+    "category": "soy gaz",
+    "summary": "Argon, renksiz, kokusuz ve tatsız bir gazdır ve atmosferin yaklaşık %0.934'ünü oluşturur.",
+    "source": "https://tr.wikipedia.org/wiki/Argon"
+  },
+  "19": {
+    "number": 19,
+    "symbol": "K",
+    "category": "alkali metal",
+    "summary": "Potasyum, vücut için önemli bir mineraldir ve sinir iletimi, kas fonksiyonu ve sıvı dengesinin düzenlenmesinde rol oynar.",
+    "source": "https://tr.wikipedia.org/wiki/Potasyum"
+  },
+  "20": {
+    "number": 20,
+    "symbol": "Ca",
+    "category": "alkalin toprak metal",
+    "summary": "Kalsiyum, vücut için hayati öneme sahip olan kemiklerin ve dişlerin yapı taşıdır.",
+    "source": "https://tr.wikipedia.org/wiki/Kalsiyum"
+  },
+  "21": {
+    "number": 21,
+    "symbol": "Sc",
+    "category": "geçiş metal",
+    "summary": "Skandiyum, yumuşak, gümüş beyazı, dövülebilir ve dövülebilir bir metaldir ve bazı alaşımların yapımında kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Skandiyum"
+  },
+  "22": {
+    "number": 22,
+    "symbol": "Ti",
+    "category": "geçiş metal",
+    "summary": "Titanyum, düşük yoğunluğa ve yüksek mukavemete sahip olan, korozyona dayanıklı bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Titanyum"
+  },
+  "23": {
+    "number": 23,
+    "symbol": "V",
+    "category": "geçiş metal",
+    "summary": "Vanadyum, sert, parlak beyaz, dövülebilir geçiş metaldir ve çelikte sertlik ve direnç artırıcı olarak kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Vanadyum"
+  },
+  "24": {
+    "number": 24,
+    "symbol": "Cr",
+    "category": "geçiş metal",
+    "summary": "Krom, parlak, sert, çelik gri bir renkte, kesme ve cilalama yapmak için kullanılan bir metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Krom"
+  },
+  "25": {
+    "number": 25,
+    "symbol": "Mn",
+    "category": "geçiş metal",
+    "summary": "Manganez, oksidasyon direnci yüksek bir metaldir ve demir ve çelik üretiminde bir alaşım bileşeni olarak kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Manganez"
+  },
+  "26": {
+    "number": 26,
+    "symbol": "Fe",
+    "category": "geçiş metal",
+    "summary": "Demir, dünyadaki en yaygın metaldir ve inşaat, otomotiv ve makine endüstrilerinde yaygın olarak kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Demir"
+  },
+  "27": {
+    "number": 27,
+    "symbol": "Co",
+    "category": "geçiş metal",
+    "summary": "Kobalt, mavi-beyaz bir metal olup, yüksek sıcaklık ve basınçlarda manyetik özellikler gösterir.",
+    "source": "https://tr.wikipedia.org/wiki/Kobalt"
+  },
+  "28": {
+    "number": 28,
+    "symbol": "Ni",
+    "category": "geçiş metal",
+    "summary": "Nikel, parlak, gümüş-beyaz bir metaldir ve paslanmaz çelik yapımında kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Nikel"
+  },
+  "29": {
+    "number": 29,
+    "symbol": "Cu",
+    "category": "geçiş metal",
+    "summary": "Bakır, yüksek elektrik ve termal iletkenliğe sahip, yumuşak ve dövülebilir bir metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Bak%C4%B1r"
+  },
+  "30": {
+    "number": 30,
+    "symbol": "Zn",
+    "category": "geçiş metal",
+    "summary": "Çinko, parlak, mavi-beyaz bir metaldir ve çelik koruma kaplamaları ve pil anotları için kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/%C3%87inko"
+  },
+  "31": {
+    "number": 31,
+    "symbol": "Ga",
+    "category": "metal",
+    "summary": "Galyum, düşük erime noktasına sahip ve bazı yarı iletkenlerin üretiminde kullanılan bir elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/Galyum"
+  },
+  "32": {
+    "number": 32,
+    "symbol": "Ge",
+    "category": "yarı metal",
+    "summary": "Germanyum, 1886'da keşfedilen ve özellikle yarı iletken uygulamalarda kullanılan bir elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/Germanyum"
+  },
+  "33": {
+    "number": 33,
+    "symbol": "As",
+    "category": "yarı metal",
+    "summary": "Arsenik, insanlar için zehirli olan ancak yarı iletken özellikleri nedeniyle elektronik endüstrisinde kullanılan bir elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/Arsenik"
+  },
+  "34": {
+    "number": 34,
+    "symbol": "Se",
+    "category": "ametal",
+    "summary": "Selenyum, biyolojik öneme sahip bir elementtir ve antioksidan aktivite gösterir.",
+    "source": "https://tr.wikipedia.org/wiki/Selenyum"
+  },
+  "35": {
+    "number": 35,
+    "symbol": "Br",
+    "category": "ametal",
+    "summary": "Brom, çeşitli endüstriyel uygulamalarda kullanılan kahverengi-kırmızı bir sıvıdır.",
+    "source": "https://tr.wikipedia.org/wiki/Brom"
+  },
+  "36": {
+    "number": 36,
+    "symbol": "Kr",
+    "category": "soy gaz",
+    "summary": "Kripton, anlık lambaların gaz dolgu maddesi ve lazerlerin gaz maddesi olarak kullanılan renksiz, kokusuz ve tatsız bir gazdır.",
+    "source": "https://tr.wikipedia.org/wiki/Kripton"
+  },
+  "37": {
+    "number": 37,
+    "symbol": "Rb",
+    "category": "alkali metal",
+    "summary": "Rubidyum, nadiren serbest halde bulunan bir alkali metaldir ve birçok mineralde bulunur.",
+    "source": "https://tr.wikipedia.org/wiki/Rubidyum"
+  },
+  "38": {
+    "number": 38,
+    "symbol": "Sr",
+    "category": "alkalin toprak metal",
+    "summary": "Stronsiyum, yumuşak, gümüş renginde bir metaldir ve bazı alaşımların ve piroteknik bileşenlerin yapımında kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Stronsiyum"
+  },
+  "39": {
+    "number": 39,
+    "symbol": "Y",
+    "category": "geçiş metal",
+    "summary": "İtriyum, nadir toprak metalleri grubuna ait bir elementtir ve optik lenslerde ve manyetik malzemelerde kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/%C4%B0triyum"
+  },
+  "40": {
+    "number": 40,
+    "symbol": "Zr",
+    "category": "geçiş metal",
+    "summary": "Zirkonyum, yüksek sıcaklık ve kimyasal dayanıklılığı olan bir geçiş metaldir ve nükleer reaktörlerde yapı malzemesi olarak kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Zirkonyum"
+  },
+  "41": {
+    "number": 41,
+    "symbol": "Nb",
+    "category": "geçiş metal",
+    "summary": "Niobyum, yüksek erime noktasına sahip bir geçiş metaldir ve çelik alaşımlarında ve süper iletkenlerde kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Niobyum"
+  },
+  "42": {
+    "number": 42,
+    "symbol": "Mo",
+    "category": "geçiş metal",
+    "summary": "Molibden, yüksek sıcaklık ve kimyasal direnç gösteren bir geçiş metaldir ve çelik alaşımlarında ve elektrik ark lambalarında kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Molibden"
+  },
+  "43": {
+    "number": 43,
+    "symbol": "Tc",
+    "category": "geçiş metal",
+    "summary": "Teknesyum, yapay olarak üretilen ve radyoizotoplarında kullanılan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Teknesyum"
+  },
+  "44": {
+    "number": 44,
+    "symbol": "Ru",
+    "category": "geçiş metal",
+    "summary": "Rutenyum, doğal olarak bulunan en nadir geçiş metallerinden biridir ve kimyasal reaksiyon hızlandırıcı olarak kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Rutenyum"
+  },
+  "45": {
+    "number": 45,
+    "symbol": "Rh",
+    "category": "geçiş metal",
+    "summary": "Rodyum, nadir bir metaldir ve katalizörlerde ve platin alaşımlarında kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Rodyum"
+  },
+  "46": {
+    "number": 46,
+    "symbol": "Pd",
+    "category": "geçiş metal",
+    "summary": "Paladyum, yüksek mukavemetli, düşük aşınma oranına sahip, paslanmaz bir metaldir ve katalizörlerde ve mücevherlerde kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Paladyum"
+  },
+  "47": {
+    "number": 47,
+    "symbol": "Ag",
+    "category": "geçiş metal",
+    "summary": "Gümüş, parlak beyaz, yumuşak, dövülebilir bir metaldir ve takı ve para yapımında yaygın olarak kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/G%C3%BCm%C3%BC%C5%9F"
+  },
+  "48": {
+    "number": 48,
+    "symbol": "Cd",
+    "category": "geçiş metal",
+    "summary": "Kadmiyum, parlak, beyaz-sarı renkte, dövülebilir ve esnektir ve pil ve alaşımlarda kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Kadmiyum"
+  },
+  "49": {
+    "number": 49,
+    "symbol": "In",
+    "category": "metal",
+    "summary": "İndiyum, özellikle düşük erime noktası nedeniyle elektronik ve optik uygulamalarda yaygın olarak kullanılan bir elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/%C4%B0ndiyum"
+  },
+  "50": {
+    "number": 50,
+    "symbol": "Sn",
+    "category": "metal",
+    "summary": "Kalay, yumuşak, dövülebilir, paslanmaz bir metaldir ve çeşitli endüstriyel uygulamalarda ve lehimlemede kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Kalay"
+  },
+  "51": {
+    "number": 51,
+    "symbol": "Sb",
+    "category": "yarı metal",
+    "summary": "Antimon, eski çağlardan beri bilinen bir elementtir ve birçok endüstriyel uygulamada ve lehimlemede kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Antimon"
+  },
+  "52": {
+    "number": 52,
+    "symbol": "Te",
+    "category": "yarı metal",
+    "summary": "Tellür, bazı yarı iletken cihazlarda ve güneş panellerinde kullanılan bir elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/Tell%C3%BCr"
+  },
+  "53": {
+    "number": 53,
+    "symbol": "I",
+    "category": "ametal",
+    "summary": "İyot, biyolojik olarak önemli bir elementtir ve tiroit hormonlarının bir parçasıdır.",
+    "source": "https://tr.wikipedia.org/wiki/%C4%B0yot"
+  },
+  "54": {
+    "number": 54,
+    "symbol": "Xe",
+    "category": "soy gaz",
+    "summary": "Ksenon, çeşitli aydınlatma uygulamalarında, lazerlerde ve fotolitografi makinelerinde kullanılan bir soy gazdır.",
+    "source": "https://tr.wikipedia.org/wiki/Ksenon"
+  },
+  "55": {
+    "number": 55,
+    "symbol": "Cs",
+    "category": "alkali metal",
+    "summary": "Seryum, ısıtmaya maruz bırakıldığında parlak mavi renkli alevler üreten yumuşak bir alkali metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Seryum"
+  },
+  "56": {
+    "number": 56,
+    "symbol": "Ba",
+    "category": "alkalin toprak metal",
+    "summary": "Baryum, oldukça reaktif bir metaldir ve bazı alaşımlarda ve çeşitli endüstriyel uygulamalarda kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Baryum"
+  },
+  "57": {
+    "number": 57,
+    "symbol": "La",
+    "category": "lantanit",
+    "summary": "Lantan, endüstride katalizörler, fosforlar, fotoğrafçılık, lazerler, pil elektrotları ve manyetler gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Lantan"
+  },
+  "58": {
+    "number": 58,
+    "symbol": "Ce",
+    "category": "lantanit",
+    "summary": "Cer, nadir toprak metalidir ve birçok endüstriyel uygulamada, özellikle katalizörlerde kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Cer"
+  },
+  "59": {
+    "number": 59,
+    "symbol": "Pr",
+    "category": "lantanit",
+    "summary": "Praseodim, nadir toprak metalidir ve manyetler, lazerler ve lambalar gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Praseodim"
+  },
+  "60": {
+    "number": 60,
+    "symbol": "Nd",
+    "category": "lantanit",
+    "summary": "Neodim, nadir toprak metalidir ve kalıcı mıknatıslar, lazerler ve lambalar gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Neodim"
+  },
+  "61": {
+    "number": 61,
+    "symbol": "Pm",
+    "category": "lantanit",
+    "summary": "Prometyum, doğada bulunan ve yalnızca laboratuvar ortamında üretilebilen bir elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/Prometyum"
+  },
+  "62": {
+    "number": 62,
+    "symbol": "Sm",
+    "category": "lantanit",
+    "summary": "Samaryum, nadir toprak metalidir ve manyetler, lazerler ve nükleer reaktörler gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Samaryum"
+  },
+  "63": {
+    "number": 63,
+    "symbol": "Eu",
+    "category": "lantanit",
+    "summary": "Avrupyum, nadir toprak metalidir ve lazerler, aydınlatma cihazları ve renkli TV ekranları gibi uygulamalarda kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Avrupyum"
+  },
+  "64": {
+    "number": 64,
+    "symbol": "Gd",
+    "category": "lantanit",
+    "summary": "Gadolinyum, nadir toprak metalidir ve manyetik malzemeler, röntgen filmleri ve lazerler gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Gadolinyum"
+  },
+  "65": {
+    "number": 65,
+    "symbol": "Tb",
+    "category": "lantanit",
+    "summary": "Terbiyum, nadir toprak metalidir ve manyetler, lazerler ve aydınlatma cihazları gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Terbiyum"
+  },
+  "66": {
+    "number": 66,
+    "symbol": "Dy",
+    "category": "lantanit",
+    "summary": "Dyprosyum, nadir toprak metalidir ve manyetik malzemeler, lazerler ve lazerli aydınlatma cihazları gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Dyprosyum"
+  },
+  "67": {
+    "number": 67,
+    "symbol": "Ho",
+    "category": "lantanit",
+    "summary": "Holmiyum, nadir toprak metalidir ve manyetik malzemeler ve lazerler gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Holmiyum"
+  },
+  "68": {
+    "number": 68,
+    "symbol": "Er",
+    "category": "lantanit",
+    "summary": "Erbiyum, nadir toprak metalidir ve optik lifler, manyetik malzemeler ve lazerler gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Erbiyum"
+  },
+  "69": {
+    "number": 69,
+    "symbol": "Tm",
+    "category": "lantanit",
+    "summary": "Tulyum, nadir toprak metalidir ve lazerler ve nükleer reaktörler gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Tulyum"
+  },
+  "70": {
+    "number": 70,
+    "symbol": "Yb",
+    "category": "lantanit",
+    "summary": "İtiryum, nadir toprak metalidir ve nükleer enerji uygulamaları, manyetik malzemeler ve lazerler gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/%C4%B0tiryum"
+  },
+  "71": {
+    "number": 71,
+    "symbol": "Lu",
+    "category": "lantanit",
+    "summary": "Lütetyum, nadir toprak metalidir ve endüstriyel katalizörler ve lazerler gibi birçok uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/L%C3%BCtetyum"
+  },
+  "72": {
+    "number": 72,
+    "symbol": "Hf",
+    "category": "geçiş metal",
+    "summary": "Hafniyum, yüksek erime noktasına sahip bir geçiş metaldir ve nükleer reaktörlerde kontrol çubukları yapmak için kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Hafniyum"
+  },
+  "73": {
+    "number": 73,
+    "symbol": "Ta",
+    "category": "geçiş metal",
+    "summary": "Tantal, korozyona dayanıklı bir geçiş metaldir ve elektrikli kapasitörler, jet motorları ve nükleer reaktörlerde kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Tantal"
+  },
+  "74": {
+    "number": 74,
+    "symbol": "W",
+    "category": "geçiş metal",
+    "summary": "Volfram, en yüksek erime noktasına sahip olan ve endüstride ısıl ve elektriksel iletkenlik için kullanılan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Volfram"
+  },
+  "75": {
+    "number": 75,
+    "symbol": "Re",
+    "category": "geçiş metal",
+    "summary": "Renyum, yüksek erime noktasına ve yoğunluğa sahip olan ve katalizörlerde ve bazı alaşımlarda kullanılan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Renyum"
+  },
+  "76": {
+    "number": 76,
+    "symbol": "Os",
+    "category": "geçiş metal",
+    "summary": "Osmiyum, en yoğun doğal elementtir ve endüstride katalizörler, elektrodlar ve alaşımlar için kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Osmiyum"
+  },
+  "77": {
+    "number": 77,
+    "symbol": "Ir",
+    "category": "geçiş metal",
+    "summary": "İriyadyum, çok nadir bulunan bir elementtir ve mücevherlerde ve bilimsel cihazlarda kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/%C4%B0riyadyum"
+  },
+  "78": {
+    "number": 78,
+    "symbol": "Pt",
+    "category": "geçiş metal",
+    "summary": "Platin, nadir bulunan ve değerli bir metaldir ve mücevherler, katalizörler ve elektronik cihazlar yapımında kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Platin"
+  },
+  "79": {
+    "number": 79,
+    "symbol": "Au",
+    "category": "geçiş metal",
+    "summary": "Altın, parlak sarı renkte değerli bir metaldir ve mücevherler ve para yapımında yaygın olarak kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Alt%C4%B1n"
+  },
+  "80": {
+    "number": 80,
+    "symbol": "Hg",
+    "category": "geçiş metal",
+    "summary": "Cıva, tek bir atom halinde olduğunda sıvı olan tek metaldir ve ölçüm cihazlarında, termometrelerde ve pil ve ampullerde kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/C%C4%B1va"
+  },
+  "81": {
+    "number": 81,
+    "symbol": "Tl",
+    "category": "metal",
+    "summary": "Talyum, yumuşak, parlak gri bir metaldir ve bazı yarı iletkenlerin yapımında kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Talyum"
+  },
+  "82": {
+    "number": 82,
+    "symbol": "Pb",
+    "category": "metal",
+    "summary": "Kurşun, yoğun, yumuşak, dövülebilir bir metaldir ve pillerde, boru ve kabloların kaplanmasında ve lehimlemede kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Kur%C5%9Fun"
+  },
+  "83": {
+    "number": 83,
+    "symbol": "Bi",
+    "category": "metal",
+    "summary": "Bizmut, parlak bir yüzeye sahip olan ve birçok endüstriyel uygulamada ve lehimlemede kullanılan bir elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/Bizmut"
+  },
+  "84": {
+    "number": 84,
+    "symbol": "Po",
+    "category": "yarı metal",
+    "summary": "Polonyum, radyoaktif bir elementtir ve birçok endüstriyel ve bilimsel uygulamada kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Polonyum"
+  },
+  "85": {
+    "number": 85,
+    "symbol": "At",
+    "category": "ametal",
+    "summary": "Astatin, doğal olarak bulunan en nadir elementlerden biridir ve radyoaktif izotoplar üretilerek laboratuvarda üretilir.",
+    "source": "https://tr.wikipedia.org/wiki/Astatin"
+  },
+  "86": {
+    "number": 86,
+    "symbol": "Rn",
+    "category": "soy gaz",
+    "summary": "Radon, radyoaktif bir gazdır ve toprakta bulunan uranyum ve toriumun radyoaktif bozunması sonucu oluşur.",
+    "source": "https://tr.wikipedia.org/wiki/Radon"
+  },
+  "87": {
+    "number": 87,
+    "symbol": "Fr",
+    "category": "alkali metal",
+    "summary": "Fransiyum, doğada nadiren bulunan ve yalnızca uranyumun radyoaktif bozunması sonucu üretilen bir alkali metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Fransiyum"
+  },
+  "88": {
+    "number": 88,
+    "symbol": "Ra",
+    "category": "alkalin toprak metal",
+    "summary": "Radyum, uranyumun radyoaktif bozunması sonucu oluşan ve parlak sarı renkte ışıyan bir elementtir.",
+    "source": "https://tr.wikipedia.org/wiki/Radyum"
+  },
+  "89": {
+    "number": 89,
+    "symbol": "Ac",
+    "category": "aktinit",
+    "summary": "Aktinyum, uranyumun radyoaktif bozunması sonucu oluşan ve laboratuvarlarda sentezlenen bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/Aktinyum"
+  },
+  "90": {
+    "number": 90,
+    "symbol": "Th",
+    "category": "aktinit",
+    "summary": "Toryum, düşük zehirlilik seviyesi nedeniyle radyoaktif izotopları, özellikle toryum-232, nükleer enerji üretiminde bir yakıt olarak kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Toryum"
+  },
+  "91": {
+    "number": 91,
+    "symbol": "Pa",
+    "category": "aktinit",
+    "summary": "Protaktinyum, uranyumun radyoaktif bozunması sonucu elde edilen bir aktinidir ve nükleer reaktörlerde kullanılır.",
+    "source": "https://tr.wikipedia.org/wiki/Protaktinyum"
+  },
+  "92": {
+    "number": 92,
+    "symbol": "U",
+    "category": "aktinit",
+    "summary": "Uranyum, nükleer enerji üretiminde kullanılan bir yakıttır ve aynı zamanda doğada yaygın olarak bulunan bir metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Uranyum"
+  },
+  "93": {
+    "number": 93,
+    "symbol": "Np",
+    "category": "aktinit",
+    "summary": "Neptünyum, uranyumun radyoaktif bozunması sonucu oluşan ve nükleer reaktörlerde ve nükleer silahların yapımında kullanılan bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/Nept%C3%BCnyum"
+  },
+  "94": {
+    "number": 94,
+    "symbol": "Pu",
+    "category": "aktinit",
+    "summary": "Plütonyum, uranyumun radyoaktif bozunması sonucu oluşan ve nükleer silahların yapımında ve nükleer enerji üretiminde kullanılan bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/Pl%C3%BCtonyum"
+  },
+  "95": {
+    "number": 95,
+    "symbol": "Am",
+    "category": "aktinit",
+    "summary": "Amerikyum, nükleer reaktörlerde, duman dedektörlerinde ve radyoaktif izotoplarında kullanılan bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/Amerikyum"
+  },
+  "96": {
+    "number": 96,
+    "symbol": "Cm",
+    "category": "aktinit",
+    "summary": "Küriyum, uranyumun radyoaktif bozunması sonucu oluşan ve nükleer reaktörlerde ve atom bombalarında kullanılan bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/K%C3%BCriyum"
+  },
+  "97": {
+    "number": 97,
+    "symbol": "Bk",
+    "category": "aktinit",
+    "summary": "Berkelyum, nükleer reaktörlerde ve radyoaktif izotoplarında kullanılan bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/Berkelyum"
+  },
+  "98": {
+    "number": 98,
+    "symbol": "Cf",
+    "category": "aktinit",
+    "summary": "Kaliforniyum, nükleer reaktörlerde, metal dedektörlerinde ve radyoaktif izotoplarında kullanılan bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/Kaliforniyum"
+  },
+  "99": {
+    "number": 99,
+    "symbol": "Es",
+    "category": "aktinit",
+    "summary": "Einsteinium, nükleer reaktörlerde ve radyoaktif izotoplarında kullanılan bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/Einsteinium"
+  },
+  "100": {
+    "number": 100,
+    "symbol": "Fm",
+    "category": "aktinit",
+    "summary": "Fermiyum, nükleer reaktörlerde ve radyoaktif izotoplarında kullanılan bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/Fermiyum"
+  },
+  "101": {
+    "number": 101,
+    "symbol": "Md",
+    "category": "aktinit",
+    "summary": "Mendelevyum, yalnızca küçük miktarlarda laboratuvarlarda sentezlenen bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/Mendelevyum"
+  },
+  "102": {
+    "number": 102,
+    "symbol": "No",
+    "category": "aktinit",
+    "summary": "Nobelium, laboratuvarlarda sentezlenen ve yalnızca küçük miktarlarda bulunan bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/Nobelium"
+  },
+  "103": {
+    "number": 103,
+    "symbol": "Lr",
+    "category": "aktinit",
+    "summary": "Lawrencium, laboratuvarlarda sentezlenen ve yalnızca küçük miktarlarda bulunan bir aktinidir.",
+    "source": "https://tr.wikipedia.org/wiki/Lawrencium"
+  },
+  "104": {
+    "number": 104,
+    "symbol": "Rf",
+    "category": "geçiş metal",
+    "summary": "Rutherfordiyum, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Rutherfordiyum"
+  },
+  "105": {
+    "number": 105,
+    "symbol": "Db",
+    "category": "geçiş metal",
+    "summary": "Dubniyum, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Dubniyum"
+  },
+  "106": {
+    "number": 106,
+    "symbol": "Sg",
+    "category": "geçiş metal",
+    "summary": "Seaborgiyum, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Seaborgiyum"
+  },
+  "107": {
+    "number": 107,
+    "symbol": "Bh",
+    "category": "geçiş metal",
+    "summary": "Bohriyum, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Bohriyum"
+  },
+  "108": {
+    "number": 108,
+    "symbol": "Hs",
+    "category": "geçiş metal",
+    "summary": "Hasyum, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Hasyum"
+  },
+  "109": {
+    "number": 109,
+    "symbol": "Mt",
+    "category": "geçiş metal",
+    "summary": "Meitneriyum, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Meitneriyum"
+  },
+  "110": {
+    "number": 110,
+    "symbol": "Ds",
+    "category": "geçiş metal",
+    "summary": "Darmstadtium, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Darmstadtium"
+  },
+  "111": {
+    "number": 111,
+    "symbol": "Rg",
+    "category": "geçiş metal",
+    "summary": "Roentgeniyum, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Roentgeniyum"
+  },
+  "112": {
+    "number": 112,
+    "symbol": "Cn",
+    "category": "geçiş metal",
+    "summary": "Copernicium, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Copernicium"
+  },
+  "113": {
+    "number": 113,
+    "symbol": "Nh",
+    "category": "geçiş metal",
+    "summary": "Nihonyum, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Nihonyum"
+  },
+  "114": {
+    "number": 114,
+    "symbol": "Fl",
+    "category": "geçiş metal",
+    "summary": "Flerovyum, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Flerovyum"
+  },
+  "115": {
+    "number": 115,
+    "symbol": "Mc",
+    "category": "geçiş metal",
+    "summary": "Moscovyum, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Moscovyum"
+  },
+  "116": {
+    "number": 116,
+    "symbol": "Lv",
+    "category": "geçiş metal",
+    "summary": "Livermorium, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Livermorium"
+  },
+  "117": {
+    "number": 117,
+    "symbol": "Ts",
+    "category": "geçiş metal",
+    "summary": "Tennessin, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Tennessin"
+  },
+  "118": {
+    "number": 118,
+    "symbol": "Og",
+    "category": "geçiş metal",
+    "summary": "Oganesson, yapay olarak üretilen ve laboratuvar ortamında bulunan bir geçiş metaldir.",
+    "source": "https://tr.wikipedia.org/wiki/Oganesson"
+  }
+}  
