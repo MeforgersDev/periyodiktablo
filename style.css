@@ -1,0 +1,260 @@
+/* Giriş */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f2f2f2; /* Daha açık arka plan rengi */
+  padding: 20px;
+}
+
+/* Tablo Kapsayıcı */
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(18, 60px);
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  max-width: 90vw;
+}
+
+/* Element Kutuları */
+
+#container div {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer; /* Fare üzerine gelme etkileşimi için */
+}
+
+/* Element Sembolleri */
+
+#container div:hover {
+    transform: scale(1.1); /* Slightly increase the size */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow for depth */
+  }
+  
+  /* Transition for Smooth Animation */
+  #container div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+  }
+  
+  /* Optional: Add a subtle rotation for a more dynamic effect */
+  #container div:hover {
+    transform: scale(1.1) rotate(-5deg); /* Combine scaling with a slight rotation */
+  }
+
+#container div h1 {
+  font-size: 20px; /* Daha büyük sembol boyutu */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Atom Numaraları */
+
+#container div h4 {
+  font-size: 12px;
+  color: #666;
+}
+#fixed-tooltip {
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    display: none;
+    z-index: 1000;
+    /* Aşağıdakiler ekstra stil örnekleridir, ihtiyacınıza göre ayarlayabilirsiniz. */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    max-width: 80%;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+
+/* Kategori Renkleri */
+.element[data-category='metal'] {
+    background-color: #c6c6c6; /* Metal kategorisi için gri */
+  }
+  
+  .element[data-category='yarı metal'] {
+    background-color: #ffd700; /* Yarı metal kategorisi için altın rengi */
+  }
+  
+  .element[data-category='ametal'] {
+    background-color: #f7f7f7; /* Ametal kategorisi için açık gri */
+  }
+  
+  .element[data-category='alkali metal'] {
+    background-color: #ffb300; /* Alkali metal kategorisi için turuncu */
+  }
+  
+  .element[data-category='alkalin toprak metal'] {
+    background-color: #f5f5dc; /* Alkali toprak metal kategorisi için bej */
+  }
+  
+  .element[data-category='diatomik olmayan'] {
+    background-color: #00c7ff; /* Diatomik olmayan */
+  }
+  
+  .element[data-category='alkali metal'] {
+    background-color: #e000a0; /* Alkali metal */
+  }
+  
+  .element[data-category='alkalin toprak metal'] {
+    background-color: #ff005e; /* Alkalin toprak metal */
+  }
+  
+  .element[data-category='geçiş metal'] {
+    background-color: #ff7a14; /* Geçiş metal */
+  }
+  
+  .element[data-category='sonra geçiş metal'] {
+    background-color: #00ff6c; /* Sonra geçiş metal */
+  }
+  
+  .element[data-category='soy gaz'] {
+    background-color: #004eae; /* Soy gaz */
+  }
+  
+  .element[data-category='lantanit'] {
+    background-color: #00ffff; /* Lantanit */
+  }
+  
+  .element[data-category='aktinit'] {
+    background-color: #00ffcc; /* Aktinit */
+  }
+  
+  /* Varsayılan renk */
+  .element {
+    background-color: #b8ff57; /* Diğer durumlar için varsayılan renk */
+  }
+
+/* Diğer kategoriler için benzer şekilde renk atamaları yapabilirsiniz */
+
+/* Tooltip */
+
+#container div span {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  right: 50%; /* Sol yerine sağ */
+  transform: translateX(50%) translateY(-10px); /* Sol için translateX(50%) */
+  top: 100%; /* Alt yerine üst */
+  margin-top: 10px; /* Alt kenar boşluğu yerine üst kenar boşluğu */
+  background-color: #fff; /* Daha açık arka plan rengi */
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  transition: visibility 0.3s, opacity 0.3s, transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+#container div:hover span {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(50%) translateY(-15px); /* Sol için translateX(50%) */
+}
+
+/* Gruplama */
+
+.grup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    /* Elementlerin yerleşimleri için ek CSS kuralları */
+    #element2 { grid-column-start: -2; }
+    #element5, #element13 { grid-column-start: 13; }
+
+    /* Diğer elementlerin yerleşimi için benzer şekilde devam edebilirsiniz */
+    #element87 { grid-column-start: 1; grid-row-start: 7; }
+    #element88 { grid-column-start: 2; grid-row-start: 7; }
+    #element72 { grid-column-start: 4; grid-row-start: 6; }
+    #element73 { grid-column-start: 5; grid-row-start: 6; }
+    #element74 { grid-column-start: 6; grid-row-start: 6; }
+    #element75 { grid-column-start: 7; grid-row-start: 6; }
+    #element76 { grid-column-start: 8; grid-row-start: 6; }
+    #element77 { grid-column-start: 9; grid-row-start: 6; }
+    #element78 { grid-column-start: 10; grid-row-start: 6; }
+    #element79 { grid-column-start: 11; grid-row-start: 6; }
+    #element80 { grid-column-start: 12; grid-row-start: 6; }
+    #element81 { grid-column-start: 13; grid-row-start: 6; }
+    #element82 { grid-column-start: 14; grid-row-start: 6; }
+    #element83 { grid-column-start: 15; grid-row-start: 6; }
+    #element84 { grid-column-start: 16; grid-row-start: 6; }
+    #element85 { grid-column-start: 17; grid-row-start: 6; }
+    #element86 { grid-column-start: 18; grid-row-start: 6; }
+
+    #element104 { grid-column-start: 4; grid-row-start: 7; }
+    #element105 { grid-column-start: 5; grid-row-start: 7; }
+    #element106 { grid-column-start: 6; grid-row-start: 7; }
+    #element107 { grid-column-start: 7; grid-row-start: 7; }
+    #element108 { grid-column-start: 8; grid-row-start: 7; }
+    #element109 { grid-column-start: 9; grid-row-start: 7; }
+    #element110 { grid-column-start: 10; grid-row-start: 7; }
+    #element111 { grid-column-start: 11; grid-row-start: 7; }
+    #element112 { grid-column-start: 12; grid-row-start: 7; }
+    #element113 { grid-column-start: 13; grid-row-start: 7; }
+    #element114 { grid-column-start: 14; grid-row-start: 7; }
+    #element115 { grid-column-start: 15; grid-row-start: 7; }
+    #element116 { grid-column-start: 16; grid-row-start: 7; }
+    #element117 { grid-column-start: 17; grid-row-start: 7; }
+    #element118 { grid-column-start: 18; grid-row-start: 7; }
+
+    #element57 { grid-column-start: 4; grid-row-start: 8; }
+    #element58 { grid-column-start: 5; grid-row-start: 8; }
+    #element59 { grid-column-start: 6; grid-row-start: 8; }
+    #element60 { grid-column-start: 7; grid-row-start: 8; }
+    #element61 { grid-column-start: 8; grid-row-start: 8; }
+    #element62 { grid-column-start: 9; grid-row-start: 8; }
+    #element63 { grid-column-start: 10; grid-row-start: 8; }
+    #element64 { grid-column-start: 11; grid-row-start: 8; }
+    #element65 { grid-column-start: 12; grid-row-start: 8; }
+    #element66 { grid-column-start: 13; grid-row-start: 8; }
+    #element67 { grid-column-start: 14; grid-row-start: 8; }
+    #element68 { grid-column-start: 15; grid-row-start: 8; }
+    #element69 { grid-column-start: 16; grid-row-start: 8; }
+    #element70 { grid-column-start: 17; grid-row-start: 8; }
+    #element71 { grid-column-start: 18; grid-row-start: 8; }
+
+    #element89 { grid-column-start: 4; grid-row-start: 9; }
+    #element90 { grid-column-start: 5; grid-row-start: 9; }
+    #element91 { grid-column-start: 6; grid-row-start: 9; }
+    #element92 { grid-column-start: 7; grid-row-start: 9; }
+    #element93 { grid-column-start: 8; grid-row-start: 9; }
+    #element94 { grid-column-start: 9; grid-row-start: 9; }
+    #element95 { grid-column-start: 10; grid-row-start: 9; }
+    #element96 { grid-column-start: 11; grid-row-start: 9; }
+    #element97 { grid-column-start: 12; grid-row-start: 9; }
+    #element98 { grid-column-start: 13; grid-row-start: 9; }
+    #element99 { grid-column-start: 14; grid-row-start: 9; }
+    #element100 { grid-column-start: 15; grid-row-start: 9; }
+    #element101 { grid-column-start: 16; grid-row-start: 9; }
+    #element102 { grid-column-start: 17; grid-row-start: 9; }
+    #element103 { grid-column-start: 18; grid-row-start: 9; }
+
+    #element119 { grid-column-start: 1; }
