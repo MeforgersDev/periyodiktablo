@@ -23,7 +23,8 @@ body {
     grid-template-columns: repeat(18, 60px);
     gap: 10px;
     padding: 10px;
-    position: relative;
+    margin: 20px auto;
+    position: center;
     max-width: 90vw;
 }
 
@@ -49,25 +50,56 @@ body {
 
 #container div h1, #container div h4 {
     font-size: 20px;
-    color: #333;
+    color: #ffffff72;
 }
 
 #container div h4 {
     font-size: 12px;
-    color: #666;
+    color: #ffffff5f;
 }
+#color-code-panel {
+    display: flex;
+    justify-content: space-around; /* Bu, öğeleri eşit olarak dağıtır */
+    flex-wrap: wrap; /* Eğer yer kalmazsa öğeleri yeni satıra taşır */
+    padding: 10px;
+    background-color: #f7f7f700;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  .color-code-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Sağ tarafta boşluk bırak */
+    margin-bottom: 10px; /* Alt tarafta boşluk bırak */
+  }
+  
+  .color-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 5px;
+    display: inline-block; /* Kutunun düzgün gözükmesi için */
+    margin-bottom: 2px; /* Kutu altındaki metinden boşluk bırak */
+  }
+  
+  .color-code-item span {
+    white-space: nowrap; /* Metnin taşmasını önler */
+  }
 
-.element[data-category='ametal'] { background-color: #f7f7f7; }
-.element[data-category='soy gaz'] { background-color: hwb(109 0% 0%); }
-.element[data-category='alkali metal'] { background-color: #ffb300; }
-.element[data-category='alkalin toprak metal'] { background-color: #f5f5dc; }
-.element[data-category='yarı metal'] { background-color: #ffd700; }
-.element[data-category='geçiş metal'] { background-color: #ff7a14; }
-.element[data-category='lantanit'] { background-color: #00ffff; }
-.element[data-category='aktinit'] { background-color: #f2ff00; }
-.element[data-category='metal'] { background-color: #c6c6c6; }
-.element[data-category='diatomik olmayan'] { background-color: #00c7ff; }
-.element[data-category='sonra geçiş metal'] { background-color: #00ff6c; }
+  
+
+
+.element[data-category='ametal'] { background-color: #264653; }
+.element[data-category='soy gaz'] { background-color: #2a9d8f; }
+.element[data-category='alkali metal'] { background-color: #e9c46a; }
+.element[data-category='alkalin toprak metal'] { background-color: #f4a261; }
+.element[data-category='yarı metal'] { background-color: #b7b7b7; }
+.element[data-category='geçiş metal'] { background-color: #9b59b6; }
+.element[data-category='lantanit'] { background-color:  #48cae4; }
+.element[data-category='aktinit'] { background-color: #6d6875; }
+.element[data-category='metal'] { background-color: #2a9d8f; }
+
 /* Varsayılan renk */
 .element { background-color: #b8ff57; }
 
