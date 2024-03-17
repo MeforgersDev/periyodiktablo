@@ -93,4 +93,45 @@ function createElectronOrbit(orbitIndex) {
             tooltip.style.display = 'none'; // tooltip'i gizle
         });
     });
+// Mobil cihaz kontrolü
+const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+// Tooltip gösterme/gizleme durumunu tutacak değişken
+let tooltipVisible = false;
+let lastTouchedElement = null;
+
+elements.forEach(element => {
+    if (isMobileDevice) {
+        element.addEventListener('click', (e) => {
+            const elementData = data[e.currentTarget.id.replace('element', '')];
+            if (elementData) {
+                // Eğer tooltip zaten görünür durumdaysa ve aynı elemente tekrar tıklanıyorsa, tooltip'i gizle
+                if (tooltipVisible && lastTouchedElement === e.currentTarget) {
+                    tooltip.style.display = 'none';
+                    tooltipVisible = false;
+                    lastTouchedElement = null;
+                } else {
+                    // Değilse, tooltip'i güncelle ve göster
+                    tooltip.innerHTML = `${elementData.summary} <a href="${elementData.source}" target="_blank">Devamını Oku...</a>`;
+                    tooltip.style.display = 'block';
+                    tooltipVisible = true;
+                    lastTouchedElement = e.currentTarget;
+                }
+            }
+        });
+    } else {
+        // Masaüstü için var olan mouseenter ve mouseleave olayları
+        element.addEventListener('mouseenter', (e) => {
+            const elementData = data[e.target.id.replace('element', '')];
+            if (elementData) {
+                tooltip.innerHTML = `${elementData.summary} <a href="${elementData.source}" target="_blank">Devamını Oku...</a>`;
+                tooltip.style.display = 'block'; // tooltip'i görünür yap
+            }
+        });
+
+        element.addEventListener('mouseleave', () => {
+            tooltip.style.display = 'none'; // tooltip'i gizle
+        });
+    }
+});
 
