@@ -93,7 +93,7 @@ function createElectronOrbit(orbitIndex) {
             tooltip.style.display = 'none'; // tooltip'i gizle
         });
     });
-// Mobil cihaz kontrolü
+    // Mobil cihaz kontrolü
 const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
 // Tooltip gösterme/gizleme durumunu tutacak değişken
@@ -134,4 +134,5 @@ elements.forEach(element => {
         });
     }
 });
+
 
