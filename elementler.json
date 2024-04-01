@@ -4,7 +4,8 @@
     "symbol": "H",
     "category": "ametal",
     "summary": "Hidrojen evrenin en hafif ve en bol bulunan kimyasal maddesidir.",
-    "source": "https://tr.wikipedia.org/wiki/Hidrojen"
+    "source": "https://tr.wikipedia.org/wiki/Hidrojen",
+    "atomic_mass" 1.008
   },
   "2": {
     "number": 2,
